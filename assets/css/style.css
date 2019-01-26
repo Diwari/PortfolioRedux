@@ -125,7 +125,7 @@ animation: Gradient 15s ease infinite;
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
-    color: #999;
+    color: #4aaaa5;
     text-decoration: none;
     border-left: 1px solid #efefef;
   }
@@ -152,7 +152,7 @@ animation: Gradient 15s ease infinite;
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
-    border-bottom: 2px solid #eeeeee;
+    
   }
   
   /* main */
@@ -173,16 +173,21 @@ animation: Gradient 15s ease infinite;
   }
   
   /* portfolio page */
+  .card-divider{
+    background: #666666;
+  }
   
   .work {
+    
     position: relative;
     float: left;
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+   
   }
   
-  .work:nth-child(even) {
+  .work:nth-child(odd) {
     margin-right: 40px;
   }
   
@@ -193,8 +198,8 @@ animation: Gradient 15s ease infinite;
   }
   
   .work h3 {
-    
-    color: #ffffff;
+  
+    color: #4aaaa5;
     text-align: center;
     
     

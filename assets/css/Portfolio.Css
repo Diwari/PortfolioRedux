@@ -48,3 +48,17 @@ body {
   * {
     box-sizing: border-box;
   }
+
+  #banner{
+	  background: #777777;
+	  width:100%;
+	  height:400px;
+	  background-image:url("/assets/image/Final_Fantasy_XIV_ARR_crystal.jpg");
+  }
+  .top-bar{
+	  background: #777777;
+
+
+  }
+
+  .work{}

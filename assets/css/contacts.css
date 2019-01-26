@@ -48,3 +48,9 @@ body {
   * {
     box-sizing: border-box;
   }
+  #banner{
+	background: #777777;
+	width:100%;
+	height:600px;
+	background-image:url("/assets/image/843664.png");
+}
