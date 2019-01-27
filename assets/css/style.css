@@ -17,32 +17,32 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    border-radius: 25px;
   }
   
-  h1,
-  h2,
-  h3,
-  p {
-    margin-bottom: 20px;
-  }
+
   
   p:last-child {
     margin-bottom: 0;
   }
   
-  h1,
-  h2,
-  h3 {
+  
+  h2{
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color:#61b3bb
+  }
+  h1,h3,h4 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: rgb(37, 64, 73);
   }
   
   h1 {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #dddddd;
+    
   }
   
   h2,
@@ -75,6 +75,9 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+  }
+  .top-bar{
+	  background: #353d3f;
   }
   
   nav {
@@ -112,7 +115,6 @@ body {
   
   h3, h2 {
     padding-bottom: 20px;
-    margin-bottom: 15px;
     line-height: 22px;
     
   }
@@ -136,7 +138,10 @@ body {
   
   /* portfolio page */
   .card-divider{
-    background: #666666;
+    background: #353d3f;
+  }
+  .card-section{
+    background:#a1bbbc;
   }
   
   .work {
@@ -146,6 +151,7 @@ body {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    border-radius: 25px;
    
   }
   
